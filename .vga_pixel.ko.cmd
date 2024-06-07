@@ -1,0 +1,1 @@
+cmd_/root/zylos/vga_pixel.ko := ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o /root/zylos/vga_pixel.ko /root/zylos/vga_pixel.o /root/zylos/vga_pixel.mod.o ;  true
